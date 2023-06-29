@@ -21,11 +21,11 @@ public class MongoConfig extends AbstractMongoClientConfiguration{
     }
 
     public MongoClient mongoClient() {
-        ConnectionString connectionString = new ConnectionString("mongodb://localhost:27017/blood");
+        ConnectionString connectionString = new ConnectionString("mongodb://localhost:27017/");
         MongoClientSettings mongoClientSettings = MongoClientSettings.builder().applyConnectionString(connectionString).build();
         return MongoClients.create(mongoClientSettings);
     }
     public Collection getMappingBasePackages() {
-        return Collections.singleton("org.smu.blood");
+        return Collections.singleton("com.test");
     }
 }

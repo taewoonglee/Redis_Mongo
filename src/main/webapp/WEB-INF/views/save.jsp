@@ -8,8 +8,8 @@
 </head>
 <body>
 saved. <br>
-user id : ${finduser.userId } <br>
-password : ${finduser.password } <br>
-nickname : ${finduser.nickname } <br>
+user id : ${a } <br>
+password : ${a } <br>
+nickname : ${a } <br>
 </body>
 </html>
