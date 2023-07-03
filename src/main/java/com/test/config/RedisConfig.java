@@ -35,6 +35,6 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
             stringRedisTemplate.setConnectionFactory(redisConnectionFactory());
             return stringRedisTemplate;
         }
-        }
+
     }
 
